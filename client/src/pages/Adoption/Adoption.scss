@@ -1,0 +1,96 @@
+// src/pages/Adoption/Adoption.scss
+
+.adoption-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.adoption-page h2 {
+  font-size: 1.5em;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px; /* Added margin to separate from other elements */
+}
+
+.adopt-section {
+  padding-left: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.adoption-requests {
+  width: 100%;
+  max-width: 800px; /* Restrict the width for better readability */
+  margin: 20px 0px;
+}
+
+.adoption-request {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.headingStyle {
+  margin: 20px;
+}
+
+.details {
+  flex: 1;
+}
+
+.requestButtons {
+  flex: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.approvalButtons {
+  flex: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+
+.adoption-request p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.adoption-request button {
+  margin-right: 10px;
+}
+
+.MuiTabs-root {
+  margin-top: 10px;
+}
+
+.MuiTab-root {
+  font-size: 1.2rem;
+}
+
+.MuiBox-root {
+  width: 100%;
+}
+
+.tabStyling {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.detailsCard {
+  flex: 1;
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-between;
+}

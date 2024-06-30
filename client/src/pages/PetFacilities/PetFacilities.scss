@@ -1,0 +1,22 @@
+
+
+    .pet-facilities {
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .MuiTabs-root {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .MuiTab-root {
+            flex: 1;
+            text-align: center;
+            max-width: none; // Override Material-UI default max-width
+        }
+    
+        .MuiBox-root {
+            padding: 0; // Adjust padding if necessary
+        }
+    }

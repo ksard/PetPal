@@ -1,0 +1,22 @@
+/* src/Features/Adoption/SearchAndFilter.scss */
+
+.search-and-filter {
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+    padding: 16px;
+    align-items: flex-start;
+    max-width: 300px; 
+    margin-left: 0 auto; /* Center the container */
+  }
+  
+  .search-and-filter .MuiFormControl-root {
+    min-width: 100%; 
+  }
+  
+  .search-and-filter .MuiTextField-root,
+  .search-and-filter .MuiSelect-root {
+    width: 100%; 
+  }

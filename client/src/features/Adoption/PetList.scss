@@ -1,0 +1,66 @@
+// features/Adoption/PetList.scss
+
+.pet-list {
+  padding: 20px; /* Added padding around the container */
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.pet-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  width: 300px;
+}
+
+.pet-image {
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* To ensure the image covers the area without stretching */
+}
+
+.pet-dialog .dialog-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-pane {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-pane {
+  flex: 1;
+  padding: 20px;
+}
+
+.pet-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.pet-name {
+  margin-top: 0;
+}
+
+.pet-detail {
+  margin: 10px 0;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+

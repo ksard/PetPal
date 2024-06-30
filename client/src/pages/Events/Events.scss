@@ -1,0 +1,28 @@
+.searchBar{
+    height: 15vh;
+    background-color: red;
+}
+
+.custom-container{
+   max-width: 90% !important;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top:2%;
+}
+
+.your-events{
+    display: flex;
+    column-gap: 2%;
+    align-items: flex-start
+}
+
+.host-btn{
+    font-size:medium !important;
+}

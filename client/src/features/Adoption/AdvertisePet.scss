@@ -1,0 +1,35 @@
+// src/features/Adoption/AdvertisePet.scss
+
+.advertise-pet {
+  margin-top: 20px;
+
+  .MuiTextField-root {
+    margin-bottom: 16px;
+  }
+
+  .MuiButtonBase-root {
+    margin-top: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+  }
+
+  .left-pane {
+    flex: 1;
+    margin-right: 20px;
+    align-items: baseline;
+  }
+
+  .right-pane {
+    flex: 0;
+    padding: 20px;
+  }
+
+  .margin-5 {
+    margin: 5px;
+  }
+  
+}

@@ -1,0 +1,115 @@
+.slider {
+    height: 99%;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+  
+  .react-multi-carousel-list {
+    height: 85vh;
+    overflow-x: hidden !important;
+    overflow-y: unset !important;
+  }
+
+  .react-multi-carousel-track {
+    height: inherit;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgb(255, 68, 68);
+  }
+  .react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: rgb(255, 68, 68) !important;
+  }
+
+  .info-section-left {
+    width: 33%;
+    margin: 20px;
+    position: absolute;
+    bottom: 220px;
+    left: 100px;
+
+    span {
+        margin: 10px 0px;
+        color: black;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    }
+
+    .title {
+        width: 100%;
+        display: block;
+        font-family: "Poetsen One", sans-serif !important;
+        font-size: 82px;
+    }
+    .description {
+        width: 100%;
+        display: block;
+        font-family: "Poetsen One", sans-serif !important;
+        font-size: 24px;
+        text-align: justify;
+    }
+    .button-primary {
+        width: 100%;
+        display: block;
+    }
+  }
+
+  .info-section-right {
+    width: 33%;
+    position: absolute;
+    bottom: 50%;
+    left: 900px;
+
+    span {
+        margin: 10px 0px;
+        color: black;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    }
+
+    .title {
+        width: 100%;
+        display: block;
+        font-family: "Poetsen One", sans-serif !important;
+        font-size: 82px;
+    }
+    .description {
+        width: 100%;
+        display: block;
+        font-family: "Poetsen One", sans-serif !important;
+        font-size: 24px;
+        text-align: justify;
+    }
+    .button-primary {
+        width: 100%;
+        display: block;
+    }
+  }
+
+.section-features {
+  margin: 50px 0;
+  .section-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 25px 0;
+    width: 100%;
+    display: block;
+    color: #0b8135;
+  }
+
+  .section-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px 100px;
+    justify-items: center;
+  }
+}

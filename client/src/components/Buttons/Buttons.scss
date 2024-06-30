@@ -1,0 +1,46 @@
+/* Classic & Timeless */
+.btn-primary {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.btn-primary:hover:not(.disabled) {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 25px;
+    border: 1px solid #000;
+    transition: background-color 0.3s, border-color 0.3s;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.btn-secondary:hover:not(.disabled) {
+    background-color: #000;
+    color: #fff;
+}
+
+.custom-button {
+    /* Your existing button styles */
+    
+    &.disabled {
+        cursor: not-allowed;
+        opacity: 0.65; /* You can adjust the opacity if needed */
+    }
+
+    &.disabled:hover {
+        background-color: inherit; /* Maintain the background color */
+        color: inherit; /* Maintain the text color */
+        border-color: inherit; /* Maintain the border color */
+    }
+}
